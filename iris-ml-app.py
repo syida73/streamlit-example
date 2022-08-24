@@ -51,8 +51,4 @@ st.write(prediction_proba)
 
 st.image("https://bouqs.com/blog/wp-content/uploads/2021/11/iris-flower-meaning-and-symbolism.jpg")
 
-chart_data = pd.DataFrame(
-     np.random.randn(20, 3),
-     columns=['a', 'b', 'c'])
-
-st.line_chart(chart_data)
+st.line_chart(data=None, *, x=None, y=None, width=0, height=0, use_container_width=True)

@@ -4,6 +4,7 @@ from sklearn import datasets
 from sklearn.ensemble import RandomForestClassifier
 
 st.write("""
+#Hello~ Welcome
 # Simple Iris Flower Prediction App
 
 This app predicts the **Iris flower** type!
@@ -49,3 +50,11 @@ st.subheader('Prediction Probability')
 st.write(prediction_proba)
 
 st.image("https://bouqs.com/blog/wp-content/uploads/2021/11/iris-flower-meaning-and-symbolism.jpg")
+
+with open("https://bouqs.com/blog/wp-content/uploads/2021/11/iris-flower-meaning-and-symbolism.jpg", "rb") as file:
+     btn = st.download_button(
+             label="Download image",
+             data=file,
+             file_name="https://bouqs.com/blog/wp-content/uploads/2021/11/iris-flower-meaning-and-symbolism.jpg",
+             mime="image/png"
+           )

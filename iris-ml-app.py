@@ -51,13 +51,5 @@ st.write(prediction_proba)
 
 st.image("https://bouqs.com/blog/wp-content/uploads/2021/11/iris-flower-meaning-and-symbolism.jpg")
 
-if st.button('Say hello'):
-     st.write('Why hello there')
-
-        with open("https://bouqs.com/blog/wp-content/uploads/2021/11/iris-flower-meaning-and-symbolism.jpg", "rb") as file:
-     btn = st.download_button(
-             label="Download image",
-             data=file,
-             file_name="https://bouqs.com/blog/wp-content/uploads/2021/11/iris-flower-meaning-and-symbolism.jpg",
-             mime="image/jpg"
-           )
+if st.button('Click me'):
+     st.write('Did you know. An extract from the iris, called Orris Root, is used as an additive to perfumes and is the most widely used fixative for potpourri.')

@@ -51,10 +51,8 @@ st.write(prediction_proba)
 
 st.image("https://bouqs.com/blog/wp-content/uploads/2021/11/iris-flower-meaning-and-symbolism.jpg")
 
-with open("irisflower.jpg", "rb") as file:
-     btn = st.download_button(
-             label="Download image",
-             data=file,
-             file_name="irisflower.jpg",
-             mime="image/png"
-           
+chart_data = pd.DataFrame(
+     np.random.randn(20, 3),
+     columns=['a', 'b', 'c'])
+
+st.line_chart(chart_data)

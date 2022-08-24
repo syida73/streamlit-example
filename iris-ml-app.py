@@ -49,7 +49,4 @@ st.write(iris.target_names[prediction])
 st.subheader('Prediction Probability')
 st.write(prediction_proba)
 
-from PIL import Image
-image = Image.open('https://commons.wikimedia.org/wiki/File:Purple_iris_flower.JPG')
 
-st.image(image, caption='Sunrise by the mountains')

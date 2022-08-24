@@ -49,6 +49,6 @@ st.subheader('Prediction Probability')
 st.write(prediction_proba)
 
 from PIL import Image
-all_iris = Image.open("Iris Photo.png")
+all_iris = Image.open("irisflower.jpeg")
 st.image(all_iris, 
          caption='Three Iris Species <source: https://morioh.com/p/eafb28ccf4e3>')

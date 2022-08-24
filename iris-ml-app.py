@@ -50,6 +50,6 @@ st.subheader('Prediction Probability')
 st.write(prediction_proba)
 
 from PIL import Image
-image = Image.open('sunrise.jpg')
+image = Image.open('https://bouqs.com/blog/wp-content/uploads/2021/11/iris-flower-meaning-and-symbolism.jpg')
 
 st.image(image, caption='Sunrise by the mountains')

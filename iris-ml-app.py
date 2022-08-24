@@ -51,4 +51,5 @@ st.write(prediction_proba)
 
 st.image("https://bouqs.com/blog/wp-content/uploads/2021/11/iris-flower-meaning-and-symbolism.jpg")
 
-st.button(https://bouqs.com/blog/iris-meaning-and-symbolism/)
+if st.button('Say hello'):
+     st.write('Why hello there')

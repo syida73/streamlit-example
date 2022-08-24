@@ -51,4 +51,4 @@ st.write(prediction_proba)
 
 st.image("https://bouqs.com/blog/wp-content/uploads/2021/11/iris-flower-meaning-and-symbolism.jpg")
 
-st.line_chart(data=None, *, x=None, y=None, width=0, height=0, use_container_width=True)
+st.button(https://bouqs.com/blog/iris-meaning-and-symbolism/)

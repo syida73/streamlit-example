@@ -53,3 +53,11 @@ st.image("https://bouqs.com/blog/wp-content/uploads/2021/11/iris-flower-meaning-
 
 if st.button('Say hello'):
      st.write('Why hello there')
+
+        with open("https://bouqs.com/blog/wp-content/uploads/2021/11/iris-flower-meaning-and-symbolism.jpg", "rb") as file:
+     btn = st.download_button(
+             label="Download image",
+             data=file,
+             file_name="https://bouqs.com/blog/wp-content/uploads/2021/11/iris-flower-meaning-and-symbolism.jpg",
+             mime="image/jpg"
+           )
